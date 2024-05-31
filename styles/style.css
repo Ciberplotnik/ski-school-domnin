@@ -79,8 +79,6 @@ body {
 }
 
 .promo_heading {
-  padding: 240px auto;
-
   font-family: 'Oswald', serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -91,8 +89,7 @@ body {
 }
 
 .promo_text {
-  padding: 0 auto 240px auto;
-  margin: 60px;
+  margin-top: 60px;
 
   font-weight: 500;
   font-size: 32px;
@@ -127,6 +124,10 @@ body {
   font-size: 26px;
   line-height: 36px;
   color: #060D10;
+}
+
+.lead-block {
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
 }
 
 .lead-block_subtittle {
