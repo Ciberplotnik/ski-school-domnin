@@ -133,15 +133,37 @@ body {
 }
 
 .advantages_subtittle {
+  margin-top: 170px;
+  margin-bottom: 100px;
+
   font-family: 'Oswald', serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 48px;
   line-height: 80px;
   color: #060D10;
+  text-align: center;
+}
+
+.advantages_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-bottom: 100px;
+
+  list-style-type: none;
+}
+
+.advantages_item {
+  width: 406px;
+
+  margin-bottom: 70px;
 }
 
 .advantages_item-subject {
+  margin-bottom: 25px;
+
   font-family: 'Oswald', serif;
   text-transform: uppercase;
   font-weight: 500;
