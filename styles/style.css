@@ -131,7 +131,6 @@ body {
 .advantages {
   background-color: rgba(102, 209, 255, .1);
   padding-top: 170px;
-  padding-bottom: 100px;
 }
 
 .advantages_subtittle {
@@ -149,16 +148,12 @@ body {
 .advantages_list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
-
-  list-style-type: none;
+  gap: 70px 30px;
+  list-style: none;
 }
 
 .advantages_item {
-  width: 406px;
-
-  margin-bottom: 70px;
+  width: calc(33.33% - 20px);
 }
 
 .advantages_item-subject {
@@ -176,6 +171,11 @@ body {
   font-size: 26px;
   line-height: 36px;
   color: #060D10;
+}
+
+.advantages-border {
+  margin-top: 170px;
+  border-bottom: 1px solid rgba(6, 13, 16, .5);
 }
 
 .lead-block {
